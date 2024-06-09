@@ -1,0 +1,63 @@
+{
+  "name": "phaser3-project-template",
+  "version": "1.1.2",
+  "description": "A Phaser 3 Project Template",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photonstorm/phaser3-project-template.git"
+  },
+  "author": "Richard Davey <rdavey@gmail.com> (http://www.photonstorm.com)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/photonstorm/phaser3-project-template/issues"
+  },
+  "homepage": "https://github.com/photonstorm/phaser3-project-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@babel/preset-env": "^7.7.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.2.4",
+    "jest-canvas-mock": "^2.3.1",
+    "raw-loader": "^4.0.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "phaser": "^3.50.0",
+    "regenerator-runtime": "^0.10.5"
+  },
+  "keywords": []
+}
